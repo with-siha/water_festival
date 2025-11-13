@@ -1,0 +1,221 @@
+    
+        body{
+            background-color: gray;
+        }
+        div {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 1224px;
+            margin: 0 auto;
+        }
+        .header {
+            padding: 60px;
+            text-align: center;
+            background-color: gainsboro;
+            color: black;
+            
+        }
+        /*
+        img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        */
+        .navbar {
+            display: block;
+            background-color: #333;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            /* flex: 1; */
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .side {
+            flex: 30%;
+            background-color: #f1f1f1;
+            
+            padding: 20px;
+        }
+        .info2{
+            display: flex;
+        }
+        .main {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+        .history{
+            background-image: url(img/historypic/h1.jpg); 
+        }
+        #feature{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /*  it means that the flex container allows its items to wrap if they don't fit in a single line. */
+            flex-wrap: wrap;/*Enables wrapping of flex items*/
+          }
+          #feature .fe-box{
+            width: 200px;
+            text-align: center;
+            padding: 25px 15px;
+            box-shadow: 20px 20px 50px rgba(0,0,0,0.1);
+            border: 1px solid #cce7d0;
+            border-radius: 4px;
+            /* margin: top right bottom left; */
+            margin: 15px 0;
+          }
+          #feature .fe-box:hover{
+            /* rgba(Red: 70,Green: 62,Blue: 221, Alpha (Opacity): 0.1) */
+            box-shadow: 20px 20px 50px rgba(70,62,221,0.1);  
+          }
+          #feature .fe-box img{
+          width: 100%;
+          margin-bottom: 10px;
+          }
+          
+          #feature .fe-box h6{
+            /* 
+            display: inline, block, inline-block, flex, flex-start
+            1.inline: cannot define width/height
+            2.block : can define width/height, always start on new line, control by full line space
+            3.inline-block : cannot break line , can define width/height
+            */
+            display: inline-block;
+            padding: 9px 8px 6px 8px;
+            line-height: 1;
+            border-radius: 4px;
+            color: #088178;
+            background-color: #fddde4;   
+          }
+          
+          #feature .fe-box:nth-child(2) h6{
+          background-color: #cdebbc;
+          }
+          #feature .fe-box:nth-child(3) h6{
+          background-color: #d1e8f2;
+          }
+          #feature .fe-box:nth-child(4) h6{
+          background-color: #cdd4f8;
+          }
+          #feature .fe-box:nth-child(5) h6{
+          background-color: #f6dbf6;
+          }
+          #feature .fe-box:nth-child(6) h6{
+          background-color: #fff2e5;
+          }
+
+          #feature1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /*  it means that the flex container allows its items to wrap if they don't fit in a single line. */
+            flex-wrap: wrap;/*Enables wrapping of flex items*/
+          }
+          #feature1 .fee-box{
+            width: 400px;
+            text-align: center;
+            padding: 25px 15px;
+            box-shadow: 20px 20px 50px rgba(0,0,0,0.1);
+            border: 1px solid #cce7d0;
+            border-radius: 4px;
+            /* margin: top right bottom left; */
+            margin: 15px 0;
+          }
+          #feature1 .fee-box:hover{
+            /* rgba(Red: 70,Green: 62,Blue: 221, Alpha (Opacity): 0.1) */
+            box-shadow: 20px 20px 50px rgba(70,62,221,0.1);  
+          }
+          #feature1 .fee-box img{
+          width: 100%;
+          margin-bottom: 10px;
+          }
+          
+          #feature1 .fee-box h6{
+            /* 
+            display: inline, block, inline-block, flex, flex-start
+            1.inline: cannot define width/height
+            2.block : can define width/height, always start on new line, control by full line space
+            3.inline-block : cannot break line , can define width/height
+            */
+            display: inline-block;
+            padding: 9px 8px 6px 8px;
+            line-height: 1;
+            border-radius: 4px;
+            color: #088178;
+            background-color: #fddde4;   
+          }
+          
+          #feature1 .fee-box:nth-child(2) h6{
+          background-color: #cdebbc;
+          }
+          #feature1 .fee-box:nth-child(3) h6{
+          background-color: #d1e8f2;
+          }
+          #feature1 .fee-box:nth-child(4) h6{
+          background-color: #cdd4f8;
+          }
+          #feature1 .fe2-box:nth-child(5) h6{
+          background-color: #f6dbf6;
+          }
+          #feature1 .fee-box:nth-child(6) h6{
+          background-color: #fff2e5;
+          }
+
+        .sponsor {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+        .DayOfFestival{
+            background-image: url(https://i.pinimg.com/564x/d2/91/3e/d2913effbf9f912309991082370a5584.jpg);
+            
+        }
+        .carousel-inner{
+            width: 100%;
+        }
+        .show{
+            margin: auto;
+        }
+        .row::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .column{
+            float: left;
+            width: 25%;
+        }
+        
+        
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+            }
+            .side, .main {
+                flex: 50%;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .navbar {
+                flex-direction: column;
+            }
+            .container {
+                width: 100%;
+            }
+            .side, .main {
+                flex: 100%;
+            }
+        }
+    

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Instinct",
+			"path": ".."
+		},
+		{
+			"name": "Build-and-Deploy-Ecommerce-Website",
+			"path": "C:/Users/ASUS/Desktop/Build-and-Deploy-Ecommerce-Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Instinct"
+	}
+}
